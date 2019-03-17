@@ -13,7 +13,7 @@ public class Solution {
 	private static Map<Integer, List<Node>> levelsToNodes;
 
 	/**
-	 * Stores the all tree nodes.
+	 * Stores all tree nodes.
 	 */
 	static Node[] nodes;
 
@@ -130,4 +130,4 @@ class Node {
 	public void setHorizontalLevel(int horizontalLevel) {
 		this.horizontalLevel = horizontalLevel;
 	}
-} 
+}
